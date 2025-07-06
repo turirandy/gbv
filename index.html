@@ -12,6 +12,8 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#">SGBV Support</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
             <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
@@ -20,5 +22,71 @@
             </ul>
             </div>
     </nav>
-</body>
+    <!-- Hero Section -->
+     <header class="jumbotron text-center">
+        <h1 class="display-4">END SGBV</h1>
+        <h1 class="display-4">Empower Survivors</h1>
+        <p class="lead">Raising awareness amd offering support to victims of sexual and gender-based violence</p>
+        <a href="sevrice.html" class="btn btn-primary btn-ig">Get Help</a>
+     </header>
+<!-- Info Section -->
+ <section class="container text-center py-5">
+    <h2>What is SGBV?</h2>
+    <p>SGBV refers to harmful acts directed at individuals based on their gender.These include physical,sexual,emotional and economic abuse.</p>
+    <p>SGBV disproportionately affects women and girls,but also impacts men and boys.Ending SGBV requires a multi-sectoral approach including education,legal reform and survivor-centered care.</p>
+    <div class="row mt-5">
+        <div class="col-md-4">
+            <h4>Awareness Campaigns</h4>
+            <p>We work with communities,schools and media to breack the silence around SGBV and promote gender equality.</p>
+        </div>
+        <div class="col-md-4">
+            <h4>Rescue and Shelter</h4>
+            <P>We work with communities,schools and media to break the silence around SGBV and promote gender equality</P>
+        </div>
+        <div class="col-md-4">
+            <h4>Legal Support</h4>
+            <p>Connecting survivors with legal aid to ensure access to justice,protection and prosecution of offenders</p>
+        </div>
+        <div class="col-md-4">
+            <h4>Rescue and Shelters</h4>
+            <p>We partner with shelters and rescue centers to provide safe spaces for victims fleeing violence and abuse.</p>
+        </div>
+    </div>
+    <div class="highlight-box">
+        <h4 class="text-primary">YOU ARE NOT ALONE</h4>
+        <p>If you or someone you know is experiencing violence,don't keep quiet reach out.</p>
+        <p>There is help.There is hope.TOGETHER WE CAN END SGBV.</p>
+        <a href="contact.html" class="btn btn-outline-primary">Talk to Us</a>
+    </div>
+    <div class="quote-box">
+        "The silence surrounding violenceis deafening.Speak out,support survivors and be the change you want to see."
+        <br><strong>Survivor Advocate</strong>
+    </div>
+    <!--Story Submission Form-->
+    <div class="story-form text-left">
+        <h4>Share Your Story</h4>
+        <p>Your voice matters.Share your experience and help others know they're not alone</p>
+        <form id="storyForm">
+            <div class="form-group">
+                <label for="storyName">Your Name(optional)</label>
+                <input type="text" class="form-control" id="storyName" placeholder="Anonymous">
+            </div>
+            <div class="form-group">
+                <label for="storyText">Your Story</label>
+                <textarea class="form-control" id="storyText" rows="4" placeholder="Write your story here..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-success">Submit Story</button>
+            <div id="storyAlert" class="mt-3 text-success" style="display: none;">Thank you for sharing your story!</div>
+        </form>
+    </div>
+    <!--Submitted Stories-->
+    <div class="story-list" id="submittedStories">
+        <h4 class="mt-5">Community Stories</h4>
+        <div id="storiesContainer"></div>
+    </div>
+ </section>
+ <!--Footer-->
+ <footer class="bg-dark text-white text-center p-3">&copy;2025 SGBV Supported Network| All rights reserved.</footer>
+ <!--Scripts-->
+ </body>
 </html>

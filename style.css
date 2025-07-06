@@ -1,0 +1,35 @@
+header.jumbotron{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) url('img/sgbv-awareness.jpg') center center/cover no-repeat;
+    color:white;
+    text-shadow:1px 1px 4px rgba(0,0,0,0.7);
+    padding: 6rem 2rem;
+}
+.highlight-box{
+    background-color: #f8f9fa;
+    padding: 2rem;
+    border-left: 5px solid #007bff;
+    margin-top: 2rem;
+}
+.quote-box{
+    background-color: #e9ecef;
+    border-radius: 10px;
+    padding: 1.5rem;
+    font-style: italic;
+    margin-top: 2rem;
+}
+.story-form{
+    background: #f0f8ff;
+    padding: 2rem;
+    border-radius: 10px;
+    margin-top: 3rem;
+}
+.story-list{
+    margin-top: 2rem;
+}
+.fade-in{
+    animation: fadlen 1s ease-in;
+}
+@keyframes fadeln{
+    from {opacity: 0;transform:translateY(20px);}
+    to{opacity: 1;transform: translatey(0);}
+}
