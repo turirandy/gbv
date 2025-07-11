@@ -1,0 +1,375 @@
+li a{
+    color: white;
+    text-decoration: none;
+}
+:where([class^="ri"])::before{content:"\f3c2";}
+:root{
+    --primary:#FFD1DC;
+    --secondary: #a0a5ae;
+    --accent:#98FF98;
+    --text:#333333;
+    --background:#FFFFFF;
+    --light-gray:#F5F5F5;
+    --medium-gray:#E0E0E0;
+    --dark-gray:#666666;
+    }
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        font-family:'Open Sans',sans-serif;
+        color: var(--text);
+        background-color: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+        line-height: 1.6;
+    }
+  h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat'sans-serif;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }  
+  .accent-text{
+    font-family: 'Playfair Display',serif;
+  }
+  .container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+  }
+ .logo{
+    font-family: 'Pacifico',serif;
+    font-size: 1.8rem;
+    color: var(--secondary);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+ }
+  .logo i {
+    margin-right: 0.5rem;
+    font-size: 2rem;
+  }
+  /*Header & Navigation*/
+  header{
+    background-color:var(--background);
+    backdrop-filter:blur(8px);
+    box-shadow: 0 2px 10px rgba( 0, 0, 0,0.01);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+      }
+  .nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    }
+  .nav-menu{
+    display: flex;
+    list-style: none;
+   }
+  .nav-item{
+    margin-left: 2rem;
+  }
+  .nav-link{
+    text-decoration: none;
+    color: #a0a5ae;
+    font-weight: 600;
+    transition:color 0.3s;
+    position: relative;
+  }
+  .nav-link:hover{
+    color: var(--secondary);
+  }
+  .nav-link::after{
+    content:'';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: var(--secondary);
+    transition: width 0.3s;
+  }
+
+  .btn{
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s;
+    border: none;
+    white-space: nowrap;
+  }
+.btn-primary{
+    background-color: #626872;
+    color: white;
+}
+.btn-primary:hover{
+    background: color #e0e0e0;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(255,107,107,0.2);
+}
+.btn-secondary{
+    background-color: white;
+    color: var(--secondary);
+    border: 2px solid var(--secondary);
+}
+.btn-secondary:hover{
+    background-color: #626872;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(255, 209, 220, 0.3);
+}
+.mobile-menu-btn{
+    display: none;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: var(--text);
+}
+/*Hero Section*/
+.hero{
+    padding:10rem 0 6rem;
+    background-image: linear-gradient(rgba(255,255,255,0.8),rgba(255,255,255,0.8)),url('https://readdy.ai/api/search-image?query=Professional%20female%20golfers%20in%20action%20on%20a%20beautiful%20golf%20course%2C%20vibrant%20green%20grass%2C%20sunny%20day%2C%20female%20golfer%20swinging%20golf%20club%20with%20perfect%20form%2C%20empowering%20athletic%20pose%2C%20modern%20golf%20attire%2C%20clear%20blue%20sky%2C%20inspiring%20sports%20moment%2C%20high%20quality%20professional%20sports%20photography&width=1200&height=600&seq=1&orientation=landscape');
+    background-size: cover;
+    background-position:center;
+    position: relative;
+}
+.hero-content{
+    max-width: 600px;
+}
+.hero h1{
+    font-size: 3.5rem;
+    line-height: 1.2;
+    margin-bottom: 1,5rem;
+    color:var(--text)
+}
+.hero p{
+    font-size: 1.2rem;
+    margin-bottom:  2rem;
+    color: var(--dark-gray);
+}
+.hero-btns{
+    display:flex;
+    gap:1rem;
+}
+.section{
+    padding:5rem 0;
+}
+.section-title{
+    text-align: center;
+    margin-bottom: 3rem;
+    position: relative;
+}
+.section-title::after{
+    content:'';
+    display: block;
+    width: 80px;
+    height: 3px;
+    background-color: var(--secondary);
+    margin: 1rem auto 0;
+}
+.form-group{
+    margin-bottom: 1.5rem;
+}
+.form-lable{
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+.form input{
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid var(--medium-gray);
+    border-radius: 8px;
+    font-family: 'Open Sans',sans-serif;
+    transition: border-color 0.3s;
+}
+.form-input:focus{
+    outline: none;
+    border-color: var(--secondary);
+}
+
+.carousel-controls{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+.carousel-btn{
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: var(--dark-gray);
+    transition: color 0.3s;
+}
+.carousel-btn:hover{
+    color: var(--secondary);
+}
+/*Help Section*/
+.help-section{
+    background-color: #a0a5ae;
+    padding: 5rem 0;
+}
+.help-container{
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}
+.help-content{
+    flex: 1;
+}
+.help-form{
+    flex: 1;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+}
+.benefits-list{
+    list-style: none;
+    margin-bottom: 2rem;
+}
+.benefits-item{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+.benefits-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border: radius 50%;
+    background-color:var(--accent);
+    color:var(--text);
+}
+/*Footer*/
+footer{
+    background-color: var(--text);
+    color:white;
+    padding: 4rem 0 2rem;
+}
+.footer-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
+    gap: 3rem;
+}
+.footer-logo{
+    color:white;
+    margin-bottom: 1rem;
+    display: inline-block;
+}
+.footer-social{
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+.footer-heading{
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+.footer-heading::after{
+    content: '';
+    display: block;
+    width: 40px;
+    height: 2px;
+    background-color: var(--secondary);
+    margin-top: 0.5rem;
+}
+.footer-links{
+    list-style: none;
+}
+.footer-link{
+    margin-bottom: 0.8rem;
+}
+.footer-link a{
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.footer-link a:hover{
+    color:var(--secondary)
+}
+.newsletter-form{
+    display: flex;
+    margin-top: 1.5rem;
+}
+.newsletter-input{
+    flex: 1;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 8px 0 0 8px;
+}
+.newsletter-btn{
+    background-color: var(--secondary);
+    color: white;
+    border: none;
+    padding: 0 1.5rem;
+    border-radius: 0 8px 8px 0;
+    cursor: pointer;
+    transition: backgroun-color 0.3s;
+}
+.newsletter-btn:hover{
+    background-color: #e05e5e;
+}
+.copyright{
+    text-align: center;
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    color: #aaa;
+    font-size: 0.9rem;
+}
+/*Responsive*/
+@media(max-width-768px){
+.nav-menu{
+    position: fixed;
+    top: 80px;
+    left: -100%;
+    width: 100%;
+    height: calc(100vh - 80px);
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 0;
+    transition: left 0.3s;
+    box-shadow: 0 4px 10px rgba( 0, 0, 0, 0.1);
+}
+.nav-menu.active{
+    left: 0;
+}
+    .nav-item{
+        margin: 1rem 0;
+    }
+    .mobile-menu-btn{
+        display: block;
+    }
+    .hero h1{
+        font-size: 2.5rem;
+    }
+    .hero-btns{
+        flex-direction: column;
+    }
+    .join-container{
+        flex-direction: column;
+    }
+    .story-card{
+        flex-direction: column;
+    }
+    .story-image{
+        flex: 0 0 200px;
+        width: 100%;
+    }
+}

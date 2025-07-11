@@ -3,9 +3,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+    <title>Contact us - Get Help!</title>
+    <link rel="stylesheet" href="contact.css">
+    </head>
 <body>
-    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">SGBV Support</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item "><a class="nav-link" href="service.html">Services</a></li>
+                <li class="nav-item active"><a class="nav-link" href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+       <section class="section help-section" id="help">
+        <div class="container">
+            <div class="help-container">
+                <div class="help-content">
+                    <h2>Why Contact Us</h2>
+                    <p>Connecting with us is essential for a healthy future share your story/experience with proffecional consoulars </p>
+                    <ul class="benefits-list">
+                        <li class="benefit-item">
+                            <div class="benefit-icon">
+                                <i class="ri-group-line"></i>
+                            </div>
+                            <div>
+                                <h4>Supportive Community</h4>
+                                <p>Connect with with other women and girls who share your their option and experience</p>
+                                <p>Report abuse of any kind and we contact the police</p>
+                            </div>
+                        </li>
+                        <li class="benefit-item">
+                            <div class="benefit-icon">
+                                <i class="ri-calender-event-line"></i>
+                            </div>
+                            <div>
+                                <h4>Exclusive Events</h4>
+                                <p>Access to women-only social gatherings</p>
+                            </div>
+                        </li>
+                        <li class="benefit-item">
+                            <div class="benefit-icon">
+                                <i class="ri-user-star-line"></i>
+                            </div>
+                            <div>
+                                <h4>Mentership Program</h4>
+                                <p>Learn from experienced concelours and victims</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="help-form">
+                    <h3>Get Help by Connecting with us</h3>
+                    <form id="helpForm">
+                        <div class="form-group">
+                            <label for="fullName" class="form-label">Full Name</label>
+                             <input type="text" class="form-control" id="storyName" placeholder="Anonymous">
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email Address</label>
+                            <input type="email" id="email" class="form-input" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="location" class="form-label">Location</label>
+                            <input type="text" id="location" class="form-input" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="experience" class="form-label">Why are you contacting us</label>
+                            <select id="experience" class="form-input">
+                                <option value="beginner">I am a VICTIM</option>
+                                <option value="intermediate">I am a WITTNESS(I saw/know someone being abused)</option>
+                                <option value="advanced">REPORTING someone who harassess/abuses people</option>
+                                <option value="none">Want to know how to PROTECT MYSELF</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">How were you abused(select your experience)</label>
+                            <div style="display: flex;flex-wrap: wrap;gap: 1rem;margin-top: 0.5rem;">
+                                <label style="display: flex;align-items: center;gap: 0.5em;">
+                                    <input type="checkbox" name="how were you abused" value="sexual">
+                                    <span>Sexual Violence</span>
+                                </label>
+                                <label style="display: flex;align-items:center;gap: 0.5rem;">
+                                    <input type="checkbox" name="how were you abused" value="verbal">
+                                    <span>Verbal/Emotional Violence</span>
+                                </label>
+                                 <label style="display: flex;align-items:center;gap: 0.5rem;">
+                                    <input type="checkbox" name="how were you abused" value="physical">
+                                    <span>Physical Violence</span>
+                                </label>
+                                 <label style="display: flex;align-items:center;gap: 0.5rem;">
+                                    <input type="checkbox" name="how were you abused" value="social">
+                                    <span>Socio-economic violence</span>
+                                </label>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Submit Report</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
 </body>
 </html>
