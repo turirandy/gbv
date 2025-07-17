@@ -31,12 +31,11 @@ This website is a digital platform designed to raise awareness,provide support a
 
 
 -Experience Coding
-
-    Positive
+    -Positive
      -Coding this website was nice, I felt like this website could change millions of peoples lives by just spending a few hours on my laptop.
      -I used my knowledge about coding with made it fun and easy for me.
     
-    Negative
+    -Negative
       -Coding this website also had some technical problems so it was abit challenging putting my brain to the test if i can fix my problems and I did.
       -The Jss had some problems it was not reflecting towards the website page it took me about 40mins to fix it
       
