@@ -7,7 +7,7 @@ Sexual and Gender-Based Violence(SGBV),which refers to any harmful act committed
 # Our Mission
 We belive that everyones voice should be heard and SGBV awereness should be raised till it falls.
 
-# OBJECTIVES
+# Objectives
 -To provide accurate,accessible and actionable information regarding various forms of SGBV.
          Sexual violence
          Emotional and psychological abuse
@@ -20,7 +20,7 @@ We belive that everyones voice should be heard and SGBV awereness should be rais
 # How these website was born
 My mum was watching news and a headline catch my eye a 75year old woman was raped to death,on the next day a woman was raped and beaten up to death.I was so shocked that I thought of a way I can help spread awereness of SGBV and I made these website. 
 
- # TECHNICAL OVERVIEW
+ # Technical Overview
  I used HTML to do the write all the the information needed
  I used CSS to decorate and style the HTML
  I used JS to make a users experience interactive and engaging.
