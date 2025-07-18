@@ -51,16 +51,13 @@ li a{
     font-size: 2rem;
   }
   /*Header & Navigation*/
-  header{
-    background-color:var(--background);
-    backdrop-filter:blur(8px);
-    box-shadow: 0 2px 10px rgba( 0, 0, 0,0.01);
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 1000;
-      }
+header{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) url('https://images.unsplash.com/photo-1581093588401-79fb2f1e534e') center/cover no-repeat;
+    color:white;
+    text-align: center;
+    padding: 6rem 2rem;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.7)
+}
   .nav-container{
     display: flex;
     justify-content: space-between;
