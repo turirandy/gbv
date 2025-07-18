@@ -31,16 +31,16 @@ My mum was watching news and a headline catch my eye a 75year old woman was rape
  We belive with our voices together can bring justice to the world.
 
 # Positive Experience while Coding
-     -Coding this website was nice, I felt like this website could change 
-      millions of peoples lives by just spending a few hours on my laptop.
-     -I used my knowledge about coding with made it fun and easy for me.
+-Coding this website was nice, I felt like this website could change 
+millions of peoples lives by just spending a few hours on my laptop.
+-I used my knowledge about coding with made it fun and easy for me.
     
 # Negative Experience while Coding
-      -Coding this website also had some technical problems so it was abit 
-       challenging putting my brain to the test if i can fix my problems and 
-       I did.
-      -The Jss had some problems it was not reflecting towards the website 
-       page it took me about 40mins to fix it.
+-Coding this website also had some technical problems so it was abit 
+ challenging putting my brain to the test if i can fix my problems and 
+ I did.
+ -The Jss had some problems it was not reflecting towards the website 
+ page it took me about 40mins to fix it.
       
 # How you can help
  JOIN THE MOVEMENT AGAINST SGBV
