@@ -56,6 +56,7 @@ millions of peoples lives by just spending a few hours on my laptop.
      Helping those who are afraid and clueless on what do.
      Report cases of SGBV.
 
+
 ### VOICES STRONGER TOGETHER
 
-<img scr="https://www.loom.com/share/b4b36f93bf3d4bfeb9ebf7e8b45b3144" alt="">
+<img src="https://www.loom.com/share/b4b36f93bf3d4bfeb9ebf7e8b45b3144" alt="">
