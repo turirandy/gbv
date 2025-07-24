@@ -59,5 +59,5 @@ millions of peoples lives by just spending a few hours on my laptop.
 
 ### VOICES STRONGER TOGETHER
 
-[Watch the video demo on Loom](https://www.loom.com/share/b4b36f93bf3d4bfeb9ebf7e8b45b3144)
+<img src="https://www.loom.com/share/fa75309a367e4f87807b0c156c1ea67a?sid=4961e4b9-80c2-404c-b03c-9f2976804a43" alt="">
 
