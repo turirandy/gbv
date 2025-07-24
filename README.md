@@ -55,5 +55,7 @@ millions of peoples lives by just spending a few hours on my laptop.
      Amplify awareness by sharing educational content.
      Helping those who are afraid and clueless on what do.
      Report cases of SGBV.
+
+     <img scr="https://www.loom.com/share/5344c6a76f144fd88e574aa22f495f17?sid=d50c2849-59cb-4afa-ba9d-af36da0ceb60" alt="Enjoy">
      
 ### VOICES STRONGER TOGETHER
