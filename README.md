@@ -60,4 +60,4 @@ millions of peoples lives by just spending a few hours on my laptop.
 ### VOICES STRONGER TOGETHER
 
 <img src="https://www.loom.com/share/fa75309a367e4f87807b0c156c1ea67a?sid=4961e4b9-80c2-404c-b03c-9f2976804a43" alt="">
-
+[![Athena Award Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Faward.athena.hackclub.com%2Fapi%2Fbadge)](https://award.athena.hackclub.com?utm_source=readme)
